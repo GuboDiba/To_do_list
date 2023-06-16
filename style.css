@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #93c4ec;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #addTodoForm {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  #addTodoForm input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+  }
+
+  #addTodoForm button {
+    padding: 8px 16px;
+    background-color: #1067e9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #addTodoForm button:hover {
+    background-color: #45a049;
+  }
+
+  #filterDropdown {
+    margin-bottom: 10px;
+  }
+
+  #todos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .drop{
+    margin-top: -4%;
+    margin-bottom: 5%;
+  }
+
+  .todo {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+
+  .todo h2 {
+    margin: 0;
+  }
+
+  .todo p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .todo button {
+    padding: 6px 12px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .todo button:hover {
+    background-color: #d32f2f;
+  }
